@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:9
+-keep class com.example.myfirstapp.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.example.myfirstapp.timeSoulGem { <init>(...); }
+
+# onClick res/layout/main.xml #generated:8
+-keepclassmembers class * { *** startClock(...); }
+
+# onClick res/layout/main.xml #generated:14
+-keepclassmembers class * { *** vibrationOff(...); }
+
