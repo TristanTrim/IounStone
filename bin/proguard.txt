@@ -4,9 +4,9 @@
 # view AndroidManifest.xml #generated:16
 -keep class com.example.iounStone.timeSoulGem { <init>(...); }
 
-# onClick res/layout/main.xml #generated:8
+# onClick res/layout/main.xml #generated:9
 -keepclassmembers class * { *** startClock(...); }
 
-# onClick res/layout/main.xml #generated:14
+# onClick res/layout/main.xml #generated:15
 -keepclassmembers class * { *** vibrationOff(...); }
 

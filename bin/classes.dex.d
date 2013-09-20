@@ -19,6 +19,7 @@
 /home/trist/projects/android/iounStone/bin/classes/com/example/myfirstapp/R.class \
 /home/trist/projects/android/iounStone/bin/classes/com/example/myfirstapp/vibrationOff.class \
 /home/trist/projects/android/iounStone/bin/classes/com/example/myfirstapp/DisplayMessageActivity.class \
+/home/trist/projects/android/iounStone/bin/classes/com/example/iounStone/timeSoulGem$1.class \
 /home/trist/projects/android/iounStone/bin/classes/com/example/iounStone/startClock.class \
 /home/trist/projects/android/iounStone/bin/classes/com/example/iounStone/BuildConfig.class \
 /home/trist/projects/android/iounStone/bin/classes/com/example/iounStone/timeSoulGem.class \
