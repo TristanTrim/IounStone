@@ -1,8 +1,8 @@
 # view AndroidManifest.xml #generated:9
--keep class com.example.myfirstapp.MainActivity { <init>(...); }
+-keep class com.example.iounStone.MainActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:16
--keep class com.example.myfirstapp.timeSoulGem { <init>(...); }
+-keep class com.example.iounStone.timeSoulGem { <init>(...); }
 
 # onClick res/layout/main.xml #generated:8
 -keepclassmembers class * { *** startClock(...); }

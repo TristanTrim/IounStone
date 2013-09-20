@@ -1,4 +1,4 @@
-package com.example.myfirstapp;
+package com.example.iounStone;
 
 import android.app.IntentService;
 import android.app.Activity;
@@ -11,9 +11,10 @@ import android.os.Vibrator;
 
 import android.widget.Toast;
 
+
 public class MainActivity extends Activity
 {
-    public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+    public final static String EXTRA_MESSAGE = "com.example.iounStone.MESSAGE";
     
     /** Called when the activity is first created. */
     @Override

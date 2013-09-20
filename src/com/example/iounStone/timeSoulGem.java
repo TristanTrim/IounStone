@@ -1,4 +1,4 @@
-package com.example.myfirstapp;
+package com.example.iounStone;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -24,29 +24,34 @@ public class timeSoulGem extends IntentService {
     //}
     @Override
     protected void onHandleIntent(Intent intent) {
-        String whatDo = intent.getStringExtra(datastring);
-        //String whatDo = intent.getDataString();
+
+        Toast.makeText(this, "peanut", Toast.LENGTH_SHORT).show();
+
+
+
+   //   String whatDo = intent.getStringExtra(datastring);
+   //   //String whatDo = intent.getDataString();
 
         Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-        //v.vibrate(500);
+          v.vibrate(500);
 
-        if (v != null && whatDo.equals("startTheClockFucker")) {
-            //start the sould gems beat (turn on the haptic clock)
-            //Vibrator v = (Vibrator) getSystemService(VIBRATOR_SERVICE);
-            //long[] pattern = { 0 , 100 , 400 };
-            //v.vibrate(pattern, 0);
-            v.vibrate(500);
-            //v.cancel();
-        }
-        if (v != null && whatDo.equals("stopTheClockFucker")) {
-            //silence its beating (turn off the haptic clock)
-            //Vibrator v = (Vibrator) getSystemService(MainActivity.VIBRATOR_SERVICE);
-            //(Vibrator) getSystemService(VIBRATOR_SERVICE).cancel();
-            v.cancel();
-            //v.vibrate(2000);
+   //   if (v != null && whatDo.equals("startTheClockFucker")) {
+   //       //start the sould gems beat (turn on the haptic clock)
+   //       //Vibrator v = (Vibrator) getSystemService(VIBRATOR_SERVICE);
+   //       //long[] pattern = { 0 , 100 , 400 };
+   //       //v.vibrate(pattern, 0);
+   //       v.vibrate(500);
+   //       //v.cancel();
+   //   }
+   //   if (v != null && whatDo.equals("stopTheClockFucker")) {
+   //       //silence its beating (turn off the haptic clock)
+   //       //Vibrator v = (Vibrator) getSystemService(MainActivity.VIBRATOR_SERVICE);
+   //       //(Vibrator) getSystemService(VIBRATOR_SERVICE).cancel();
+   //       v.cancel();
+   //       //v.vibrate(2000);
             //long[] pattern = {0,500,500};
             //v.vibrate(pattern, 0);
-        }
+   //   }
     }
 }
 

@@ -1,2 +1,2 @@
-/home/trist/projects/android/myFirstApp/bin/AndroidManifest.xml : \
-/home/trist/projects/android/myFirstApp/AndroidManifest.xml \
+/home/trist/projects/android/iounStone/bin/AndroidManifest.xml : \
+/home/trist/projects/android/iounStone/AndroidManifest.xml \
